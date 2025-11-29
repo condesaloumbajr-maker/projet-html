@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restaurant Gourmet</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <style>
+    .hero {
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+      height: 70vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 1px 1px 10px black;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Restaurant Gourmet</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">À propos de nous</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero text-center">
+  <div>
+    <h1 class="display-4">Découvrez notre cuisine raffinée</h1>
+    <a class="btn btn-primary btn-lg mt-3" href="#">Voir le menu</a>
+  </div>
+</section>
+
+<!-- MENU -->
+<div class="container my-5">
+  <h2 class="text-center mb-4">Notre Menu</h2>
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1604908177522-0406186f5a91?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Pâtes Carbonara</h5>
+          <p class="card-text">Un classique italien revisité avec des ingrédients frais.</p>
+          <p class="fw-bold">14 €</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1601315379731-5d970dcd6e83?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Burger Gourmet</h5>
+          <p class="card-text">Un burger premium avec fromage affiné et légumes bio.</p>
+          <p class="fw-bold">18 €</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1546069901-eacef0df6022?auto=format&fit=crop&w=800&q=80" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Salade César</h5>
+          <p class="card-text">Une salade fraîche avec poulet grillé et parmesan.</p>
+          <p class="fw-bold">12 €</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- A PROPOS -->
+<section class="container my-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80" class="img-fluid rounded">
+    </div>
+    <div class="col-md-6">
+      <h2>À propos de nous</h2>
+      <p>
+        Nous sommes un restaurant familial proposant une cuisine fait maison avec des produits frais du terroir.
+        Notre équipe passionnée vous accueille dans une ambiance chaleureuse et élégante.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Contactez-nous</h2>
+  <form class="row g-3">
+
+    <div class="col-md-6">
+      <input class="form-control" type="text" placeholder="Votre nom">
+    </div>
+
+    <div class="col-md-6">
+      <input class="form-control" type="email" placeholder="Votre email">
+    </div>
+
+    <div class="col-12">
+      <textarea class="form-control" rows="4" placeholder="Votre message"></textarea>
+    </div>
+
+    <div class="col-12 text-center">
+      <button class="btn btn-primary">Envoyer</button>
+    </div>
+
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3">
+  <p>© 2025 Restaurant Gourmet</p>
+  <div>
+    <i class="bi bi-facebook mx-2"></i>
+    <i class="bi bi-instagram mx-2"></i>
+    <i class="bi bi-twitter mx-2"></i>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
